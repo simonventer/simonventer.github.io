@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Assignment</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="stylesheet.css" rel="stylesheet" type="text/css" />
@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--These are the datatable links-->
     <script src="https://cdn.datatables.net/autofill/2.2.0/css/autoFill.dataTables.min.css"></script>
     <script src="https://cdn.datatables.net/autofill/2.2.0/js/dataTables.autoFill.min.js"></script>
     <link rel=" stylehseet" href="StyleSheet.css" />
@@ -28,13 +29,13 @@
 <body style="overflow">
     <!--This is showing the top navigation bar-->
     <div class="topnav">
-        <a href="#">Gift Cards</a>
+        <a href="index.html">Gift Cards</a>
             <form id="searchbar">
                 <input id="search" name="search" type="text" placeholder="search" style="border-radius:5px; border:2px solid #0092ff"/>
                 <button class="icon"><i class="glyphicon glyphicon-search"></i></button>
             </form>
         <!-- Trigger the modal with a button -->
-        <button id="createButton" type="button" data-toggle="modal" data-target="#myModal">Create New Gift Card</button>
+        <a id="createButton" href="index2.html">Create New Gift Card</a>
     </div>
 
     <!--This is for the data table showing popup hovering-->
@@ -65,162 +66,7 @@
             <tbody>
                 <tr>
                     <td>2017-01-13</td>
-                    <td>ABB56H8</td>
-                    <td>R500.00</td>
-                    <td>Abraham Boonzaaier</td>
-                    <td>3</td>
-                    <td>Active</td>
-                </tr>
-                <tr>
-                    <td>2017-01-13</td>
-                    <td>JAB56H8</td>
-                    <td>R500.00</td>
-                    <td>Jamie Adams</td>
-                    <td>3</td>
-                    <td>Active</td>
-                </tr>
-                <tr>
-                    <td>2017-01-14</td>
-                    <td>XAB56H8</td>
-                    <td>R500.00</td>
-                    <td>Jack Robinson</td>
-                    <td>3</td>
-                    <td>Active</td>
-                </tr>
-                <tr>
-                    <td>2017-01-03</td>
-                    <td>CBB56H8</td>
-                    <td>R500.00</td>
-                    <td>Christine Baker</td>
-                    <td>3</td>
-                    <td>Active</td>
-                </tr>
-                <tr>
-                    <td>2017-01-03</td>
-                    <td>CVB56H8</td>
-                    <td>R500.00</td>
-                    <td>Candice Voges</td>
-                    <td>2</td>
-                    <td>Active</td>
-                </tr>
-                <tr>
-                    <td>2017-01-03</td>
-                    <td>EFB56H8</td>
-                    <td>R500.00</td>
-                    <td>Eduan Fredriechs</td>
-                    <td>4</td>
-                    <td>Active</td>
-                </tr>
-                <tr>
-                    <td>2017-01-03</td>
-                    <td>DTB56H8</td>
-                    <td>R500.00</td>
-                    <td>Daniel Tunstead</td>
-                    <td>1</td>
-                    <td>Active</td>
-                </tr>
-                <tr>
-                    <td>2017-01-03</td>
-                    <td>BMB56H8</td>
-                    <td>R500.00</td>
-                    <td>Bennie Milander</td>
-                    <td>3</td>
-                    <td>Active</td>
-                </tr>
-                <tr>
-                    <td>2017-01-03</td>
-                    <td>FSB56H8</td>
-                    <td>R500.00</td>
-                    <td>Francois van Schalkwyk</td>
-                    <td>3</td>
-                    <td>Active</td>
-                </tr>
-                <tr>
-                    <td>2017-01-03</td>
-                    <td>RDB56H8</td>
-                    <td>R500.00</td>
-                    <td>Robert Downie</td>
-                    <td>3</td>
-                    <td>Active</td>
-                </tr>
-                <tr>
-                    <td>2017-01-20</td>
-                    <td>GWB56H8</td>
-                    <td>R500.00</td>
-                    <td>Garrett Winters</td>
-                    <td>5</td>
-                    <td>Active</td>
-                </tr>
-                <tr>
-                    <td>2017-01-22</td>
-                    <td>ACB56H8</td>
-                    <td>R500.00</td>
-                    <td>Ashton Cox</td>
-                    <td>3</td>
-                    <td>Not-Active</td>
-                </tr>
-                <tr>
-                    <td>2017-01-21</td>
-                    <td>ASB56H8</td>
-                    <td>R500.00</td>
-                    <td>Airi Satou</td>
-                    <td>2</td>
-                    <td>Not-Active</td>
-                </tr>
-                <tr>
-                    <td>2017-01-24</td>
-                    <td>BWB56H8</td>
-                    <td>R500.00</td>
-                    <td>Brielle Williamson</td>
-                    <td>2</td>
-                    <td>Not-Active</td>
-                </tr>
-                <tr>
-                    <td>2017-01-21</td>
-                    <td>HCB56H8</td>
-                    <td>R500.00</td>
-                    <td>Herrod Chandler</td>
-                    <td>2</td>
-                    <td>Not-Active</td>
-                </tr>
-                <tr>
-                    <td>2017-01-05</td>
-                    <td>RDB56H8</td>
-                    <td>R500.00</td>
-                    <td>Sonya Frost</td>
-                    <td>3</td>
-                    <td>Not-Active</td>
-                </tr>
-                <tr>
-                    <td>2017-01-21</td>
-                    <td>QFB56H8</td>
-                    <td>R500.00</td>
-                    <td>Quinn Flynn</td>
-                    <td>1</td>
-                    <td>Active</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    
-    <!--This is for the data table showing popup hovering-->
-    <!--
-    <div class="tabledata">
-        <table id="myTable" class="DataTable" width="100%" cellpadding="0">
-            <thead>
-                <tr>
-                    <th> &nbsp; Date Created </th>
-                    <th> &nbsp; Ref No. </th>
-                    <th> &nbsp; Balace </th>
-                    <th> &nbsp; Owner </th>
-                    <th> &nbsp; Uses </th>
-                    <th> &nbsp; Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>&nbsp; 2017-01-13</td>
-                    <td>&nbsp;  <table>
+                    <td><table>
                                        <tr class="hover">
                                            <td>
                                                <a href"#">ABB56H8</a>
@@ -233,10 +79,10 @@
                                                        </tr>
                                                        <tr>
                                                            <td>
-                                                               <h6>No: &nbsp; ORD1234</h6>
-                                                               <h6>Ref: &nbsp; XYZ12HG</h6>
-                                                               <h6>Date: &nbsp; 2017-04-21</h6>
-                                                               <h6>Value: &nbsp; R400</h6>
+                                                               <h6>No: ORD1234</h6>
+                                                               <h6>Ref: XYZ12HG</h6>
+                                                               <h6>Date: 2017-04-21</h6>
+                                                               <h6>Value: R400</h6>
                                                            </td>
                                                            <td>
                                                                <h6>Name: Abraham Boonzaaier</h6>
@@ -252,32 +98,31 @@
                                                </div>
                                            </td>
                                        </tr>
-                                   </table>
-                    </td>
-                    <td>&nbsp; R500.00</td>
-                    <td>&nbsp; <table>
-                                       <tr class="hover">
-                                           <td>
-                                               <a href"#">Abraham Boonzaaier</a>
-                                               <div class="tooltip">
-                                                   <table style="width:200px; margin-left:40px; font-size:8pt">
-                                                       <tr>
-                                                           <td>Owner:</td>                                                        
-                                                       </tr>
-                                                       <tr>                                                          
-                                                           <td>
-                                                               <h6>Name: Abraham Boonzaaier</h6>
-                                                               <h6>Email: abraham@gmail.com</h6>
-                                                               <h6>Phone: 0718652578</h6>
-                                                           </td>
-                                                       </tr>
-                                                   </table>
-                                               </div>
-                                           </td>
-                                       </tr>
-                                   </table>
-                    </td>
-                    <td>&nbsp; 
+                                   </table></td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">R500.00</a>
+                                    <div class="tooltip">
+                                        <table style="width:200px; margin-left:40px; font-size:8pt">
+                                            <tr>
+                                                <td>Owner:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>Name: Abraham Boonzaaier</h6>
+                                                    <h6>Email: abraham@gmail.com</h6>
+                                                    <h6>Phone: 0718652578</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>Abraham Boonzaaier</td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
@@ -312,14 +157,13 @@
                                     </div>
                                 </td>
                             </tr>
-                        </table>    
-                    </td>
-                    <td>&nbsp; Active</td>
+                        </table></td>
+                    <td>Active</td>
                 </tr>
                 <tr>
-                    <td>&nbsp; 2017-01-13</td>
+                    <td>2017-01-13</td>
                     <td>
-                        &nbsp;  <table>
+                        <table>
                             <tr class="hover">
                                 <td>
                                     <a href"#">JAB56H8</a>
@@ -340,7 +184,7 @@
                                                 <td>
                                                     <h6>Name: Jamie Adams</h6>
                                                     <h6>Email: jamie@gmail.com</h6>
-                                                    <h6>Phone: 0741233578</h6>
+                                                    <h6>Phone: 07188552578</h6>
                                                 </td>
                                                 <td>
                                                     <h6>Name: Jamie Adams</h6>
@@ -351,14 +195,12 @@
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp; R500.00</td>
-                    <td>&nbsp; 
+                        </table></td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
-                                    <a href"#">Jamie Adams</a>
+                                    <a href"#">R500.00</a>
                                     <div class="tooltip">
                                         <table style="width:200px; margin-left:40px; font-size:8pt">
                                             <tr>
@@ -368,16 +210,16 @@
                                                 <td>
                                                     <h6>Name: Jamie Adams</h6>
                                                     <h6>Email: jamie@gmail.com</h6>
-                                                    <h6>Phone: 0741233578</h6>
+                                                    <h6>Phone: 07188552578</h6>
                                                 </td>
                                             </tr>
                                         </table>
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp;
+                        </table></td>
+                    <td>Jamie Adams</td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
@@ -392,8 +234,8 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <h6>ORD0001</h6>
-                                                    <h6>ORD0002</h6>
+                                                    <h6>ORD0004</h6>
+                                                    <h6>ORD0005</h6>
                                                 </td>
                                                 <td>
                                                     <h6>KYS123XD</h6>
@@ -412,14 +254,13 @@
                                     </div>
                                 </td>
                             </tr>
-                        </table>    
-                    </td>
-                    <td>&nbsp; Active</td>
+                        </table></td>
+                    <td>Active</td>
                 </tr>
                 <tr>
-                    <td>&nbsp; 2017-01-13</td>
+                    <td>2017-01-14</td>
                     <td>
-                        &nbsp;  <table>
+                        <table>
                             <tr class="hover">
                                 <td>
                                     <a href"#">XAB56H8</a>
@@ -440,7 +281,7 @@
                                                 <td>
                                                     <h6>Name: Jack Robinson</h6>
                                                     <h6>Email: jack@gmail.com</h6>
-                                                    <h6>Phone: 0714563578</h6>
+                                                    <h6>Phone: 0718652578</h6>
                                                 </td>
                                                 <td>
                                                     <h6>Name: Jack Robinson</h6>
@@ -451,14 +292,12 @@
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp; R500.00</td>
-                    <td>&nbsp; 
+                        </table></td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
-                                    <a href"#">Jack Robinson</a>
+                                    <a href"#">R500.00</a>
                                     <div class="tooltip">
                                         <table style="width:200px; margin-left:40px; font-size:8pt">
                                             <tr>
@@ -468,16 +307,16 @@
                                                 <td>
                                                     <h6>Name: Jack Robinson</h6>
                                                     <h6>Email: jack@gmail.com</h6>
-                                                    <h6>Phone: 0714563578</h6>
+                                                    <h6>Phone: 0718652578</h6>
                                                 </td>
                                             </tr>
                                         </table>
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp; 
+                        </table></td>
+                    <td>Jack Robinson</td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
@@ -512,14 +351,13 @@
                                     </div>
                                 </td>
                             </tr>
-                        </table>    
-                    </td>
-                    <td>&nbsp; Active</td>
+                        </table></td>
+                    <td>Active</td>
                 </tr>
                 <tr>
-                    <td>&nbsp; 2017-01-13</td>
+                    <td>2017-01-03</td>
                     <td>
-                        &nbsp;  <table>
+                        <table>
                             <tr class="hover">
                                 <td>
                                     <a href"#">CBB56H8</a>
@@ -540,7 +378,7 @@
                                                 <td>
                                                     <h6>Name: Christine Baker</h6>
                                                     <h6>Email: christine@gmail.com</h6>
-                                                    <h6>Phone: 0854563578</h6>
+                                                    <h6>Phone: 0718647578</h6>
                                                 </td>
                                                 <td>
                                                     <h6>Name: Christine Baker</h6>
@@ -551,14 +389,12 @@
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp; R500.00</td>
-                    <td>&nbsp;
+                        </table></td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
-                                    <a href"#">Chrsitine Baker</a>
+                                    <a href"#">R500.00</a>
                                     <div class="tooltip">
                                         <table style="width:200px; margin-left:40px; font-size:8pt">
                                             <tr>
@@ -568,16 +404,16 @@
                                                 <td>
                                                     <h6>Name: Christine Baker</h6>
                                                     <h6>Email: christine@gmail.com</h6>
-                                                    <h6>Phone: 0854563578</h6>
+                                                    <h6>Phone: 0718647578</h6>
                                                 </td>
                                             </tr>
                                         </table>
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp; 
+                        </table></td>
+                    <td>Christine Baker</td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
@@ -592,8 +428,8 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <h6>ORD0001</h6>
-                                                    <h6>ORD0002</h6>
+                                                    <h6>ORD0004</h6>
+                                                    <h6>ORD0005</h6>
                                                 </td>
                                                 <td>
                                                     <h6>KYS123XD</h6>
@@ -612,14 +448,13 @@
                                     </div>
                                 </td>
                             </tr>
-                        </table>    
-                    </td>
-                    <td>&nbsp; Active</td>
+                        </table></td>
+                    <td>Active</td>
                 </tr>
                 <tr>
-                    <td>&nbsp; 2017-01-13</td>
+                    <td>2017-01-03</td>
                     <td>
-                        &nbsp;  <table>
+                        <table>
                             <tr class="hover">
                                 <td>
                                     <a href"#">CVB56H8</a>
@@ -640,7 +475,7 @@
                                                 <td>
                                                     <h6>Name: Candice Voges</h6>
                                                     <h6>Email: candice@gmail.com</h6>
-                                                    <h6>Phone: 0862563578</h6>
+                                                    <h6>Phone: 0718354578</h6>
                                                 </td>
                                                 <td>
                                                     <h6>Name: Candice Voges</h6>
@@ -651,14 +486,12 @@
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp; R500.00</td>
-                    <td>&nbsp; 
+                        </table></td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
-                                    <a href"#">Candice Voges</a>
+                                    <a href"#">R500.00</a>
                                     <div class="tooltip">
                                         <table style="width:200px; margin-left:40px; font-size:8pt">
                                             <tr>
@@ -668,20 +501,20 @@
                                                 <td>
                                                     <h6>Name: Candice Voges</h6>
                                                     <h6>Email: candice@gmail.com</h6>
-                                                    <h6>Phone: 0862563578</h6>
+                                                    <h6>Phone: 0718354578</h6>
                                                 </td>
                                             </tr>
                                         </table>
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp; 
+                        </table></td>
+                    <td>Candice Voges</td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
-                                    <a href"#">3</a>
+                                    <a href"#">2</a>
                                     <div class="tooltip">
                                         <table style="width:280px; margin-left:20px; font-size:8pt;">
                                             <tr>
@@ -692,8 +525,8 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <h6>ORD0001</h6>
-                                                    <h6>ORD0002</h6>
+                                                    <h6>ORD0004</h6>
+                                                    <h6>ORD0005</h6>
                                                 </td>
                                                 <td>
                                                     <h6>KYS123XD</h6>
@@ -712,14 +545,13 @@
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp; Active</td>
+                        </table></td>
+                    <td>Active</td>
                 </tr>
                 <tr>
-                    <td>&nbsp; 2017-01-13</td>
+                    <td>2017-01-03</td>
                     <td>
-                        &nbsp;  <table>
+                        <table>
                             <tr class="hover">
                                 <td>
                                     <a href"#">EFB56H8</a>
@@ -740,7 +572,7 @@
                                                 <td>
                                                     <h6>Name: Eduan Fredriechs</h6>
                                                     <h6>Email: eduan@gmail.com</h6>
-                                                    <h6>Phone: 0736563578</h6>
+                                                    <h6>Phone: 0718356798</h6>
                                                 </td>
                                                 <td>
                                                     <h6>Name: Eduan Fredriechs</h6>
@@ -751,14 +583,12 @@
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp; R500.00</td>
-                    <td>&nbsp;
+                        </table></td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
-                                    <a href"#">Eduan Fredriechs</a>
+                                    <a href"#">R500.00</a>
                                     <div class="tooltip">
                                         <table style="width:200px; margin-left:40px; font-size:8pt">
                                             <tr>
@@ -768,20 +598,20 @@
                                                 <td>
                                                     <h6>Name: Eduan Fredriechs</h6>
                                                     <h6>Email: eduan@gmail.com</h6>
-                                                    <h6>Phone: 0736563578</h6>
+                                                    <h6>Phone: 0718356798</h6>
                                                 </td>
                                             </tr>
                                         </table>
                                     </div>
                                 </td>
                             </tr>
-                        </table>    
-                    </td>
-                    <td>&nbsp; 
+                        </table></td>
+                    <td>Eduan Fredriechs</td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
-                                    <a href"#">3</a>
+                                    <a href"#">4</a>
                                     <div class="tooltip">
                                         <table style="width:280px; margin-left:20px; font-size:8pt;">
                                             <tr>
@@ -792,8 +622,8 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <h6>ORD0001</h6>
-                                                    <h6>ORD0002</h6>
+                                                    <h6>ORD0004</h6>
+                                                    <h6>ORD0005</h6>
                                                 </td>
                                                 <td>
                                                     <h6>KYS123XD</h6>
@@ -812,14 +642,13 @@
                                     </div>
                                 </td>
                             </tr>
-                        </table>    
-                    </td>
-                    <td>&nbsp; Active</td>
+                        </table></td>
+                    <td>Active</td>
                 </tr>
                 <tr>
-                    <td>&nbsp; 2017-01-13</td>
+                    <td>2017-01-03</td>
                     <td>
-                        &nbsp;  <table>
+                        <table>
                             <tr class="hover">
                                 <td>
                                     <a href"#">DTB56H8</a>
@@ -839,26 +668,24 @@
                                                 </td>
                                                 <td>
                                                     <h6>Name: Daniel Tunstead</h6>
-                                                    <h6>Email: Daniel@gmail.com</h6>
-                                                    <h6>Phone: 0624563578</h6>
+                                                    <h6>Email: daniel@gmail.com</h6>
+                                                    <h6>Phone: 0727856798</h6>
                                                 </td>
                                                 <td>
                                                     <h6>Name: Daniel Tunstead</h6>
-                                                    <h6>Email: Daniel@gmail.com</h6>
+                                                    <h6>Email: daniel@gmail.com</h6>
                                                 </td>
                                             </tr>
                                         </table>
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp; R500.00</td>
-                    <td>&nbsp; 
+                        </table></td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
-                                    <a href"#">Daniel Tunstead</a>
+                                    <a href"#">R500.00</a>
                                     <div class="tooltip">
                                         <table style="width:200px; margin-left:40px; font-size:8pt">
                                             <tr>
@@ -867,21 +694,21 @@
                                             <tr>
                                                 <td>
                                                     <h6>Name: Daniel Tunstead</h6>
-                                                    <h6>Email: Daniel@gmail.com</h6>
-                                                    <h6>Phone: 0624563578</h6>
+                                                    <h6>Email: daniel@gmail.com</h6>
+                                                    <h6>Phone: 0727856798</h6>
                                                 </td>
                                             </tr>
                                         </table>
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp;
+                        </table></td>
+                    <td>Daniel Tunstead</td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
-                                    <a href"#">3</a>
+                                    <a href"#">1</a>
                                     <div class="tooltip">
                                         <table style="width:280px; margin-left:20px; font-size:8pt;">
                                             <tr>
@@ -892,8 +719,8 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <h6>ORD0001</h6>
-                                                    <h6>ORD0002</h6>
+                                                    <h6>ORD0004</h6>
+                                                    <h6>ORD0005</h6>
                                                 </td>
                                                 <td>
                                                     <h6>KYS123XD</h6>
@@ -912,14 +739,13 @@
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp; Active</td>
+                        </table></td>
+                    <td>Active</td>
                 </tr>
                 <tr>
-                    <td>&nbsp; 2017-01-13</td>
+                    <td>2017-01-03</td>
                     <td>
-                        &nbsp;  <table>
+                        <table>
                             <tr class="hover">
                                 <td>
                                     <a href"#">BMB56H8</a>
@@ -940,10 +766,10 @@
                                                 <td>
                                                     <h6>Name: Bennie Milander</h6>
                                                     <h6>Email: bennie@gmail.com</h6>
-                                                    <h6>Phone: 0714934578</h6>
+                                                    <h6>Phone: 0727644798</h6>
                                                 </td>
                                                 <td>
-                                                    <h6>Name: Benie Milander</h6>
+                                                    <h6>Name: Bennie Milander</h6>
                                                     <h6>Email: bennie@gmail.com</h6>
                                                 </td>
                                             </tr>
@@ -951,14 +777,12 @@
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp; R500.00</td>
-                    <td>&nbsp; 
+                        </table></td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
-                                    <a href"#">Benie Milander</a>
+                                    <a href"#">R500.00</a>
                                     <div class="tooltip">
                                         <table style="width:200px; margin-left:40px; font-size:8pt">
                                             <tr>
@@ -966,18 +790,18 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <h6>Name: Benie Milander</h6>
+                                                    <h6>Name: Bennie Milander</h6>
                                                     <h6>Email: bennie@gmail.com</h6>
-                                                    <h6>Phone: 0714934578</h6>
+                                                    <h6>Phone: 0727644798</h6>
                                                 </td>
                                             </tr>
                                         </table>
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp;
+                        </table></td>
+                    <td>Bennie Milander</td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
@@ -992,8 +816,8 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <h6>ORD0001</h6>
-                                                    <h6>ORD0002</h6>
+                                                    <h6>ORD0004</h6>
+                                                    <h6>ORD0005</h6>
                                                 </td>
                                                 <td>
                                                     <h6>KYS123XD</h6>
@@ -1012,14 +836,13 @@
                                     </div>
                                 </td>
                             </tr>
-                        </table>    
-                    </td>
-                    <td>&nbsp; Active</td>
+                        </table></td>
+                    <td>Active</td>
                 </tr>
                 <tr>
-                    <td>&nbsp; 2017-01-13</td>
+                    <td>2017-01-03</td>
                     <td>
-                        &nbsp;  <table>
+                        <table>
                             <tr class="hover">
                                 <td>
                                     <a href"#">FSB56H8</a>
@@ -1038,12 +861,12 @@
                                                     <h6>Value: &nbsp; R400</h6>
                                                 </td>
                                                 <td>
-                                                    <h6>Name: Francois v Schalkwyk</h6>
+                                                    <h6>Name: Francois van Schalkwyk</h6>
                                                     <h6>Email: francois@gmail.com</h6>
-                                                    <h6>Phone: 0714564589</h6>
+                                                    <h6>Phone: 0727646958</h6>
                                                 </td>
                                                 <td>
-                                                    <h6>Name: Francois v Schalkwyk</h6>
+                                                    <h6>Name: Francois van Schalkwyk</h6>
                                                     <h6>Email: francois@gmail.com</h6>
                                                 </td>
                                             </tr>
@@ -1051,14 +874,12 @@
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp; R500.00</td>
-                    <td>&nbsp; 
+                        </table></td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
-                                    <a href"#">Francois v Schalkwyk</a>
+                                    <a href"#">R500.00</a>
                                     <div class="tooltip">
                                         <table style="width:200px; margin-left:40px; font-size:8pt">
                                             <tr>
@@ -1066,18 +887,18 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <h6>Name: Francois v Schalkwyk</h6>
+                                                    <h6>Name: Francois van Schalkwyk</h6>
                                                     <h6>Email: francois@gmail.com</h6>
-                                                    <h6>Phone: 0714564589</h6>
+                                                    <h6>Phone: 0727646958</h6>
                                                 </td>
                                             </tr>
                                         </table>
                                     </div>
                                 </td>
                             </tr>
-                        </table>    
-                    </td>
-                    <td>&nbsp; 
+                        </table></td>
+                    <td>Francois van Schalkwyk</td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
@@ -1092,8 +913,8 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <h6>ORD0001</h6>
-                                                    <h6>ORD0002</h6>
+                                                    <h6>ORD0004</h6>
+                                                    <h6>ORD0005</h6>
                                                 </td>
                                                 <td>
                                                     <h6>KYS123XD</h6>
@@ -1112,14 +933,13 @@
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp; Active</td>
+                        </table></td>
+                    <td>Active</td>
                 </tr>
                 <tr>
-                    <td>&nbsp; 2017-01-13</td>
+                    <td>2017-01-03</td>
                     <td>
-                        &nbsp;  <table>
+                        <table>
                             <tr class="hover">
                                 <td>
                                     <a href"#">RDB56H8</a>
@@ -1140,7 +960,7 @@
                                                 <td>
                                                     <h6>Name: Robert Downie</h6>
                                                     <h6>Email: robert@gmail.com</h6>
-                                                    <h6>Phone: 0865363578</h6>
+                                                    <h6>Phone: 0727647778</h6>
                                                 </td>
                                                 <td>
                                                     <h6>Name: Robert Downie</h6>
@@ -1151,14 +971,12 @@
                                     </div>
                                 </td>
                             </tr>
-                        </table>
-                    </td>
-                    <td>&nbsp; R500.00</td>
-                    <td>&nbsp; 
+                        </table></td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
-                                    <a href"#">Robert Downie</a>
+                                    <a href"#">R500.00</a>
                                     <div class="tooltip">
                                         <table style="width:200px; margin-left:40px; font-size:8pt">
                                             <tr>
@@ -1168,16 +986,16 @@
                                                 <td>
                                                     <h6>Name: Robert Downie</h6>
                                                     <h6>Email: robert@gmail.com</h6>
-                                                    <h6>Phone: 0865363578</h6>
+                                                    <h6>Phone: 0727647778</h6>
                                                 </td>
                                             </tr>
                                         </table>
                                     </div>
                                 </td>
                             </tr>
-                        </table>    
-                    </td>
-                    <td>&nbsp;
+                        </table></td>
+                    <td>Robert Downie</td>
+                    <td>
                         <table>
                             <tr class="hover">
                                 <td>
@@ -1192,8 +1010,105 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <h6>ORD0001</h6>
-                                                    <h6>ORD0002</h6>
+                                                    <h6>ORD0004</h6>
+                                                    <h6>ORD0005</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>KYS123XD</h6>
+                                                    <h6>GG160WW</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>2017-04-21</h6>
+                                                    <h6>2017-04-22</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>R400.00</h6>
+                                                    <h6>R75.00</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>2017-01-20</td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">GWB56H8</a>
+                                    <div class="tooltip">
+                                        <table style="width:450px; margin-left:40px; font-size:8pt">
+                                            <tr>
+                                                <td>Order Details:</td>
+                                                <td>Purchased by:</td>
+                                                <td>Recipient:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>No: &nbsp; ORD1234</h6>
+                                                    <h6>Ref: &nbsp; XYZ12HG</h6>
+                                                    <h6>Date: &nbsp; 2017-04-21</h6>
+                                                    <h6>Value: &nbsp; R400</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>Name: Garrett Winters</h6>
+                                                    <h6>Email: garret@gmail.com</h6>
+                                                    <h6>Phone: 0725557778</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>Name: Garrett Winters</h6>
+                                                    <h6>Email: garret@gmail.com</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">R500.00</a>
+                                    <div class="tooltip">
+                                        <table style="width:200px; margin-left:40px; font-size:8pt">
+                                            <tr>
+                                                <td>Owner:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>Name: Garrett Winters</h6>
+                                                    <h6>Email: garret@gmail.com</h6>
+                                                    <h6>Phone: 0725557778</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>Garrett Winters</td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">5</a>
+                                    <div class="tooltip">
+                                        <table style="width:280px; margin-left:20px; font-size:8pt;">
+                                            <tr>
+                                                <td>Order:</td>
+                                                <td>Ref:</td>
+                                                <td>Date:</td>
+                                                <td>Amount:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>ORD0004</h6>
+                                                    <h6>ORD0005</h6>
                                                 </td>
                                                 <td>
                                                     <h6>KYS123XD</h6>
@@ -1214,13 +1129,596 @@
                             </tr>
                         </table>
                     </td>
-                    <td>&nbsp; Active</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>2017-01-22</td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">ACB56H8</a>
+                                    <div class="tooltip">
+                                        <table style="width:450px; margin-left:40px; font-size:8pt">
+                                            <tr>
+                                                <td>Order Details:</td>
+                                                <td>Purchased by:</td>
+                                                <td>Recipient:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>No: &nbsp; ORD1234</h6>
+                                                    <h6>Ref: &nbsp; XYZ12HG</h6>
+                                                    <h6>Date: &nbsp; 2017-04-21</h6>
+                                                    <h6>Value: &nbsp; R400</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>Name: Ashton Cox</h6>
+                                                    <h6>Email: ashton@gmail.com</h6>
+                                                    <h6>Phone: 0724658778</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>Name: Ashton Cox</h6>
+                                                    <h6>Email: ashton@gmail.com</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">R500.00</a>
+                                    <div class="tooltip">
+                                        <table style="width:200px; margin-left:40px; font-size:8pt">
+                                            <tr>
+                                                <td>Owner:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>Name: Ashton Cox</h6>
+                                                    <h6>Email: ashton@gmail.com</h6>
+                                                    <h6>Phone: 0724658778</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>Ashton Cox</td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">3</a>
+                                    <div class="tooltip">
+                                        <table style="width:280px; margin-left:20px; font-size:8pt;">
+                                            <tr>
+                                                <td>Order:</td>
+                                                <td>Ref:</td>
+                                                <td>Date:</td>
+                                                <td>Amount:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>ORD0004</h6>
+                                                    <h6>ORD0005</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>KYS123XD</h6>
+                                                    <h6>GG160WW</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>2017-04-21</h6>
+                                                    <h6>2017-04-22</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>R400.00</h6>
+                                                    <h6>R75.00</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>Not-Active</td>
+                </tr>
+                <tr>
+                    <td>2017-01-21</td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">ASB56H8</a>
+                                    <div class="tooltip">
+                                        <table style="width:450px; margin-left:40px; font-size:8pt">
+                                            <tr>
+                                                <td>Order Details:</td>
+                                                <td>Purchased by:</td>
+                                                <td>Recipient:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>No: &nbsp; ORD1234</h6>
+                                                    <h6>Ref: &nbsp; XYZ12HG</h6>
+                                                    <h6>Date: &nbsp; 2017-04-21</h6>
+                                                    <h6>Value: &nbsp; R400</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>Name: Airi Satou</h6>
+                                                    <h6>Email: airi@gmail.com</h6>
+                                                    <h6>Phone: 0726988778</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>Name: Airi Satou</h6>
+                                                    <h6>Email: airi@gmail.com</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">R500.00</a>
+                                    <div class="tooltip">
+                                        <table style="width:200px; margin-left:40px; font-size:8pt">
+                                            <tr>
+                                                <td>Owner:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>Name: Airi Satou</h6>
+                                                    <h6>Email: airi@gmail.com</h6>
+                                                    <h6>Phone: 0726988778</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>Airi Satou</td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">2</a>
+                                    <div class="tooltip">
+                                        <table style="width:280px; margin-left:20px; font-size:8pt;">
+                                            <tr>
+                                                <td>Order:</td>
+                                                <td>Ref:</td>
+                                                <td>Date:</td>
+                                                <td>Amount:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>ORD0004</h6>
+                                                    <h6>ORD0005</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>KYS123XD</h6>
+                                                    <h6>GG160WW</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>2017-04-21</h6>
+                                                    <h6>2017-04-22</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>R400.00</h6>
+                                                    <h6>R75.00</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Not-Active</td>
+                </tr>
+                <tr>
+                    <td>2017-01-24</td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">BWB56H8</a>
+                                    <div class="tooltip">
+                                        <table style="width:450px; margin-left:40px; font-size:8pt">
+                                            <tr>
+                                                <td>Order Details:</td>
+                                                <td>Purchased by:</td>
+                                                <td>Recipient:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>No: &nbsp; ORD1234</h6>
+                                                    <h6>Ref: &nbsp; XYZ12HG</h6>
+                                                    <h6>Date: &nbsp; 2017-04-21</h6>
+                                                    <h6>Value: &nbsp; R400</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>Name: Brielle Williamson</h6>
+                                                    <h6>Email: breille@gmail.com</h6>
+                                                    <h6>Phone: 0754688778</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>Name: Brielle Williamson</h6>
+                                                    <h6>Email: brielle@gmail.com</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">R500.00</a>
+                                    <div class="tooltip">
+                                        <table style="width:200px; margin-left:40px; font-size:8pt">
+                                            <tr>
+                                                <td>Owner:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>Name: Brielle Williamson</h6>
+                                                    <h6>Email: breille@gmail.com</h6>
+                                                    <h6>Phone: 0754688778</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>Brielle Williamson</td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">2</a>
+                                    <div class="tooltip">
+                                        <table style="width:280px; margin-left:20px; font-size:8pt;">
+                                            <tr>
+                                                <td>Order:</td>
+                                                <td>Ref:</td>
+                                                <td>Date:</td>
+                                                <td>Amount:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>ORD0004</h6>
+                                                    <h6>ORD0005</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>KYS123XD</h6>
+                                                    <h6>GG160WW</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>2017-04-21</h6>
+                                                    <h6>2017-04-22</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>R400.00</h6>
+                                                    <h6>R75.00</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>Not-Active</td>
+                </tr>
+                <tr>
+                    <td>2017-01-21</td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">HCB56H8</a>
+                                    <div class="tooltip">
+                                        <table style="width:450px; margin-left:40px; font-size:8pt">
+                                            <tr>
+                                                <td>Order Details:</td>
+                                                <td>Purchased by:</td>
+                                                <td>Recipient:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>No: &nbsp; ORD1234</h6>
+                                                    <h6>Ref: &nbsp; XYZ12HG</h6>
+                                                    <h6>Date: &nbsp; 2017-04-21</h6>
+                                                    <h6>Value: &nbsp; R400</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>Name: Herrod Chandler</h6>
+                                                    <h6>Email:herrod@gmail.com</h6>
+                                                    <h6>Phone: 0750028778</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>Name: Herrod Chandler</h6>
+                                                    <h6>Email: herrod@gmail.com</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">R500.00</a>
+                                    <div class="tooltip">
+                                        <table style="width:200px; margin-left:40px; font-size:8pt">
+                                            <tr>
+                                                <td>Owner:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>Name: Herrod Chandler</h6>
+                                                    <h6>Email:herrod@gmail.com</h6>
+                                                    <h6>Phone: 0750028778</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>Herrod Chandler</td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">2</a>
+                                    <div class="tooltip">
+                                        <table style="width:280px; margin-left:20px; font-size:8pt;">
+                                            <tr>
+                                                <td>Order:</td>
+                                                <td>Ref:</td>
+                                                <td>Date:</td>
+                                                <td>Amount:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>ORD0004</h6>
+                                                    <h6>ORD0005</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>KYS123XD</h6>
+                                                    <h6>GG160WW</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>2017-04-21</h6>
+                                                    <h6>2017-04-22</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>R400.00</h6>
+                                                    <h6>R75.00</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>Not-Active</td>
+                </tr>
+                <tr>
+                    <td>2017-01-05</td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">RDB56H8</a>
+                                    <div class="tooltip">
+                                        <table style="width:450px; margin-left:40px; font-size:8pt">
+                                            <tr>
+                                                <td>Order Details:</td>
+                                                <td>Purchased by:</td>
+                                                <td>Recipient:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>No: &nbsp; ORD1234</h6>
+                                                    <h6>Ref: &nbsp; XYZ12HG</h6>
+                                                    <h6>Date: &nbsp; 2017-04-21</h6>
+                                                    <h6>Value: &nbsp; R400</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>Name: Sonya Frost</h6>
+                                                    <h6>Email:sonya@gmail.com</h6>
+                                                    <h6>Phone: 0750123778</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>Name: Sonya Frost</h6>
+                                                    <h6>Email: sonya@gmail.com</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">R500.00</a>
+                                    <div class="tooltip">
+                                        <table style="width:200px; margin-left:40px; font-size:8pt">
+                                            <tr>
+                                                <td>Owner:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>Name: Sonya Frost</h6>
+                                                    <h6>Email:sonya@gmail.com</h6>
+                                                    <h6>Phone: 0750123778</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>Sonya Frost</td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">3</a>
+                                    <div class="tooltip">
+                                        <table style="width:280px; margin-left:20px; font-size:8pt;">
+                                            <tr>
+                                                <td>Order:</td>
+                                                <td>Ref:</td>
+                                                <td>Date:</td>
+                                                <td>Amount:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>ORD0004</h6>
+                                                    <h6>ORD0005</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>KYS123XD</h6>
+                                                    <h6>GG160WW</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>2017-04-21</h6>
+                                                    <h6>2017-04-22</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>R400.00</h6>
+                                                    <h6>R75.00</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>Not-Active</td>
+                </tr>
+                <tr>
+                    <td>2017-01-21</td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">QFB56H8</a>
+                                    <div class="tooltip">
+                                        <table style="width:450px; margin-left:40px; font-size:8pt">
+                                            <tr>
+                                                <td>Order Details:</td>
+                                                <td>Purchased by:</td>
+                                                <td>Recipient:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>No: &nbsp; ORD1234</h6>
+                                                    <h6>Ref: &nbsp; XYZ12HG</h6>
+                                                    <h6>Date: &nbsp; 2017-04-21</h6>
+                                                    <h6>Value: &nbsp; R400</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>Name: Quinn Flynn</h6>
+                                                    <h6>Email: quinn@gmail.com</h6>
+                                                    <h6>Phone: 0750325778</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>Name: Quinn Flynn</h6>
+                                                    <h6>Email: quinn@gmail.com</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">R500.00</a>
+                                    <div class="tooltip">
+                                        <table style="width:200px; margin-left:40px; font-size:8pt">
+                                            <tr>
+                                                <td>Owner:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>Name: Quinn Flynn</h6>
+                                                    <h6>Email: quinn@gmail.com</h6>
+                                                    <h6>Phone: 0750325778</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>Quinn Flynn</td>
+                    <td>
+                        <table>
+                            <tr class="hover">
+                                <td>
+                                    <a href"#">1</a>
+                                    <div class="tooltip">
+                                        <table style="width:280px; margin-left:20px; font-size:8pt;">
+                                            <tr>
+                                                <td>Order:</td>
+                                                <td>Ref:</td>
+                                                <td>Date:</td>
+                                                <td>Amount:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>ORD0004</h6>
+                                                    <h6>ORD0005</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>KYS123XD</h6>
+                                                    <h6>GG160WW</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>2017-04-21</h6>
+                                                    <h6>2017-04-22</h6>
+                                                </td>
+                                                <td>
+                                                    <h6>R400.00</h6>
+                                                    <h6>R75.00</h6>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table></td>
+                    <td>Active</td>
                 </tr>
             </tbody>
         </table>
     </div>
-    -->
-
+    
+    
     <!--This is for my first modal-->
         <div class="modal fade reply-sure" id="myModal">
             <div class="modal-dialog modal-lg">

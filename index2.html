@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="javascript.js"></script>
+    <!--These are links for the body and the create new button -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--These are the datatable links-->
+    <script src="https://cdn.datatables.net/autofill/2.2.0/css/autoFill.dataTables.min.css"></script>
+    <script src="https://cdn.datatables.net/autofill/2.2.0/js/dataTables.autoFill.min.js"></script>
+    <link rel=" stylehseet" href="StyleSheet.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.2/css/jquery.dataTables.css">
+    <!-- jQuery -->
+    <script type="text/javascript" charset="utf8" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <!-- DataTables -->
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#example1').dataTable();
+        });
+    </script>
+</head>
+
+<body style="overflow">
+    <!--This is showing the top navigation bar-->
+    <div class="topnav">
+        <a href="index.html">Gift Cards</a>
+            <form id="searchbar">
+                <input id="search" name="search" type="text" placeholder="search" style="border-radius:5px; border:2px solid #0092ff"/>
+                <button class="icon"><i class="glyphicon glyphicon-search"></i></button>
+            </form>
+        <!-- Trigger the modal with a button -->
+        <button id="createButton" type="button" data-toggle="modal" data-target="#myModal">Create New Gift Card</button>
+    </div>
+
+    
+    <!--This is for my first modal-->
+        <div class="modal fade reply-sure" id="myModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Bulk Create Gift Cards</h4>
+                        <h6>Select the desired gift card of your choice</h6>
+                    </div>
+                    <div class="modal-body">
+                        <input type="image" style="width:100px;" img src="images/AD_icon.png" />
+                        <input type="image" style="width:100px;" img src="images/AD_icon.png" />
+                        <input type="image" style="width:100px;" img src="images/AD_icon.png" />
+                        <input type="image" style="width:100px;" img src="images/AD_icon.png" />
+                        <input type="image" style="width:100px;" img src="images/AD_icon.png" />
+                        <br />
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">Next</button>
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--This is the second modal-->
+        <div class="modal fade reply-sure" id="myModal2">
+            <div class="modal-dialog  modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-default">
+                        <h4 class="modal-title">Bulk Create Gift Cards</h4>
+                        <h6>Set the gift card value and quantity</h6>
+                    </div>
+                    <div class="modal-body">
+                        <h4>Value:</h4>
+                        <input style="float:right; margin-top:-30px; margin-right:320px;" type="text" placeholder="R1000" />
+                        <h4>Qty:</h4>
+                        <select style="float:right; margin-top:-30px; margin-right:320px;">
+                            <option value="#"></option>
+                            <option value="#">1</option>
+                            <option value="#">2</option>
+                            <option value="#">3</option>
+                            <option value="#">4</option>
+                            <option value="#">5</option>
+                            <option value="#">10</option>
+                            <option value="#">50</option>
+                            <option value="#">100</option>
+                        </select>
+                        <br />
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">Create</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--This is the last modal-->
+        <div class="modal fade reply-sure" id="myModal3">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Bulk Create Gift Cards</h4>
+                        <h6>Download your CSV file with all your card numbers</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p style="font-size:18pt"> A CSV file containing all the gift card numbers will be downloaded when you click on the Download button below</p>
+                        <br />
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+    <!--This is for the footer and made it static to stay at the bottom of page-->
+    <div class="Footer">
+        <p>Copyright &copy; 2017 &middot; All Rights Reserved &middot; Buy Gift cards</p>
+    </div>
+
+</body>
+</html>
+
+
